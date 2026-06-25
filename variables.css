@@ -1,0 +1,144 @@
+:root {
+
+  /* =====================================================
+     PRIMARY  (#2346D1 기준 — 밝은쪽 흰 혼합 / 어두운쪽 검정 혼합)
+     ===================================================== */
+  --primary-50:  #F4F6FD;   /* 배경 강조, hover 영역 */
+  --primary-75:  #E5E9F9;   /* 중간 강조 배경 */
+  --primary-100: #D3DAF6;   /* 비활성 뱃지, 연한 fill */
+  --primary-300: #91A3E8;   /* 아이콘, 보조 강조 */
+  --primary-500: #2346D1;   /* BASE — 버튼, 링크, 주 액션 */
+  --primary-700: #1C38A7;   /* hover 상태, 눌림 상태 */
+  --primary-900: #152A7D;   /* 텍스트 강조, 어두운 배경 위 */
+
+
+  /* =====================================================
+     GRAY  (블루 계열과 어울리는 쿨 그레이)
+     ===================================================== */
+  --gray-50:  #F9F9F9;   /* 페이지 배경 */
+  --gray-100: #F2F2F4;   /* 카드 배경, 섹션 배경 */
+  --gray-200: #E4E4E8;   /* 구분선, 테두리 */
+  --gray-300: #CACAD0;   /* 비활성 테두리 */
+  --gray-400: #9A9DAA;   /* placeholder, 비활성 아이콘 */
+  --gray-500: #6B6F7E;   /* 보조 텍스트 (연한) */
+  --gray-600: #4A4E5C;   /* 보조 텍스트 (진한) */
+  --gray-700: #2D303C;   /* 소제목, 강조 보조 텍스트 */
+  --gray-900: #111318;   /* 기본 본문 텍스트 */
+
+
+  /* =====================================================
+     STATUS COLORS
+     ===================================================== */
+  --color-warning:        #F08C00;   /* 주의 / 경고 */
+  --color-warning-bg:     rgba(240, 140, 0, 0.10);
+  --color-warning-border: rgba(240, 140, 0, 0.25);
+  --color-danger:         #E03131;   /* 위험 */
+  --color-success:        #2F9E44;   /* 정상 */
+
+
+  /* =====================================================
+     SEMANTIC — 위 토큰을 참조 (기존 코드 호환)
+     ===================================================== */
+  --color-midnight-ink:  #333350;              /* 기본 텍스트 */
+  --color-cloud-canvas:  var(--gray-100);      /* 섹션·카드 배경 */
+  --color-paper-white:   #ffffff;              /* 컴포넌트 내부 배경 */
+  --color-muted-ash:     var(--color-midnight-ink); /* 보조 텍스트 */
+  --color-ghost-border:  var(--gray-200);      /* 테두리·구분선 */
+  --color-electric-blue: var(--primary-500);   /* 주요 액션 */
+
+
+  /* =====================================================
+     TYPOGRAPHY — Font Families
+     ===================================================== */
+  --font-korean:  'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', ui-sans-serif, sans-serif;
+  --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+
+
+  /* =====================================================
+     TYPOGRAPHY — Scale
+     ===================================================== */
+  --text-caption:      14px;
+  --leading-caption:   1.2;
+
+  --text-small:        16px;
+  --leading-small:     1.5;
+
+  --text-body:         18px;
+  --leading-body:      1.8;
+
+  --text-subheading:   18px;
+  --leading-subheading:1.5;
+
+  --text-heading-sm:   20px;
+  --leading-heading-sm:1.4;
+
+  --text-heading:      24px;
+  --leading-heading:   1.4;
+  --tracking-heading:  -0.3px;
+
+  --text-heading-lg:   32px;
+  --leading-heading-lg:1.2;
+  --tracking-heading-lg:-0.4px;
+
+  --text-h1:           42px;
+  --leading-h1:        1.2;
+  --tracking-h1:       -0.5px;
+
+  --text-display:      48px;
+  --leading-display:   1.1;
+  --tracking-display:  -0.6px;
+
+
+  /* =====================================================
+     TYPOGRAPHY — Weights
+     ===================================================== */
+  --font-weight-medium: 500;
+  --font-weight-bold:   700;
+
+
+  /* =====================================================
+     SPACING  (4px 기반)
+     ===================================================== */
+  --spacing-unit: 4px;
+  --spacing-4:    4px;
+  --spacing-8:    8px;
+  --spacing-16:   16px;
+  --spacing-20:   20px;
+  --spacing-24:   24px;
+  --spacing-32:   32px;
+  --spacing-40:   40px;
+  --spacing-48:   48px;
+  --spacing-80:   80px;
+  --spacing-88:   88px;
+  --spacing-96:   96px;
+  --spacing-176:  176px;
+
+
+  /* =====================================================
+     LAYOUT
+     ===================================================== */
+  --page-max-width: 1400px;
+  --section-gap:    40px;
+  --card-padding:   20px;
+  --element-gap:    24px;
+
+
+  /* =====================================================
+     BORDER RADIUS
+     ===================================================== */
+  --radius-default: 8px;
+  --radius-lg:      8px;
+  --radius-xl:      12px;
+  --radius-images:  12px;
+  --radius-inputs:  10px;
+  --radius-buttons: 1425.6px;   /* pill */
+  --radius-full:    1425.6px;
+
+
+  /* =====================================================
+     SURFACES  (semantic 별칭)
+     ===================================================== */
+  --surface-cloud-canvas:  var(--gray-100);
+  --surface-paper-white:   #ffffff;
+  --surface-midnight-ink:  var(--gray-900);
+}

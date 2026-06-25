@@ -583,12 +583,13 @@ img {
   z-index: 2;
   width: 100%;
   padding-bottom: 0;
-  margin-top: 126px;
+  margin-top: 106px;
   margin-bottom: -16px;
 }
 
 .hero-dashboard {
   position: relative;
+  top: -10px;
   border-radius: 6px;
   overflow: hidden;
   background-color: var(--color-paper-white);
@@ -2468,7 +2469,7 @@ img {
    ============================ */
 .footer {
   position: relative;
-  background-color: #F9F9FB;
+  background-color: #ffffff;
   overflow: hidden;
 }
 

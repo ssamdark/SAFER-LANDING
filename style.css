@@ -2745,7 +2745,7 @@ img {
   }
   .sol-tile--ra, .sol-tile--sp { padding-top: 12px; align-items: center; }
   .bento-video-text { padding-left: 24px !important; }
-  .bento-tw-kr, .bento-tw-en, .bento-tw-cursor { font-size: 18px !important; }
+  .bento-tw-kr, .bento-tw-en, .bento-tw-cursor { font-size: 14px !important; }
   .section-control { padding-top: 60px !important; padding-bottom: 60px !important; }
   .section-problem { padding-top: 60px !important; padding-bottom: 60px !important; }
   .problem-header .section-heading { font-size: 32px; white-space: normal; }

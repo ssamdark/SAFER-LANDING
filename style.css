@@ -2733,10 +2733,17 @@ img {
   .bento-card--full { flex-direction: column !important; height: auto !important; }
   .bento-card--full > div:first-child { padding: 30px 24px 24px; }
   .feature-bar-grid { grid-template-columns: 1fr; }
-  .sol-grid { gap: 6px; }
-  .sol-tile { padding: 8px 10px; gap: 8px; }
-  .sol-tile__icon { width: 26px; height: 26px; }
-  .sol-tile__name { font-size: 13px; }
+  .pcard-visual--solution { min-height: auto; }
+  .sol-grid {
+    position: relative;
+    inset: auto;
+    padding: 12px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "ser" "ra" "ac" "sp" "ed" "ch" "ms";
+    gap: 8px;
+  }
+  .sol-tile--ra, .sol-tile--sp { padding-top: 12px; align-items: center; }
   .bento-video-text { padding-left: 24px !important; }
   .bento-tw-kr, .bento-tw-en, .bento-tw-cursor { font-size: 18px !important; }
   .section-control { padding-top: 60px !important; padding-bottom: 60px !important; }

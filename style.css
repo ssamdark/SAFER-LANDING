@@ -2735,6 +2735,8 @@ img {
   .feature-bar-grid { grid-template-columns: 1fr; }
   .section-control { padding-top: 60px !important; padding-bottom: 60px !important; }
   .section-problem { padding-top: 60px !important; padding-bottom: 60px !important; }
+  .problem-header .section-heading { font-size: 26px; }
+  .section-subtext { max-width: 100%; }
   .section-features { padding: 60px 0; }
   .section-cta { padding: 80px 0; }
 }

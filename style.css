@@ -2720,6 +2720,7 @@ img {
   .testimonial-card { min-width: 100%; }
   .footer-links-grid { grid-template-columns: 1fr 1fr; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .hero-dashboard-wrapper { display: none; }
   .footer-inner { padding: 40px 20px 32px; }
   .footer-top-row { flex-direction: column; align-items: flex-start !important; gap: 16px !important; }
   .footer-top-row > div:last-child { text-align: left !important; }

@@ -1977,7 +1977,8 @@ img {
 }
 
 .bento-card {
-  background: #EAEAEA;
+  background: #F9F9FB;
+  border: 1px solid #E6E6F0;
   border-radius: 12px;
   overflow: hidden;
   width: 100%;
@@ -2672,6 +2673,61 @@ img {
 .problem-card:nth-child(2) { transition-delay: 0.12s; }
 
 /* ============================
+   UTILITY
+   ============================ */
+.text-primary { color: var(--primary-500); }
+
+/* FEATURE ORBIT IMAGES */
+.feature-img-centered {
+  width: 605px;
+  height: 407px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* BENTO */
+.bento-video-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  z-index: 0;
+}
+.bento-card-content { padding: 28px 48px 48px; }
+.bento-tw-kr {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Pretendard', sans-serif;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: -0.3px;
+}
+.bento-tw-en {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+}
+.bento-tw-cursor {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #A78BFA;
+}
+
+/* ORBIT VIDEO */
+.orbit-video-fill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================
    RESPONSIVE
    ============================ */
 @media (max-width: 1439px) {
@@ -2745,7 +2801,7 @@ img {
   }
   .sol-tile--ra, .sol-tile--sp { padding-top: 12px; align-items: center; }
   .bento-video-text { padding-left: 24px !important; }
-  .bento-tw-kr, .bento-tw-en, .bento-tw-cursor { font-size: 14px !important; }
+  .bento-tw-kr, .bento-tw-en, .bento-tw-cursor { font-size: 14px; }
   .section-control { padding-top: 60px !important; padding-bottom: 60px !important; }
   .section-problem { padding-top: 60px !important; padding-bottom: 60px !important; }
   .problem-header .section-heading { font-size: 32px; white-space: normal; }

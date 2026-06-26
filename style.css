@@ -1411,8 +1411,9 @@ img {
 .card-body {
   font-family: var(--font-korean);
   font-size: 18px;
-  font-weight: 500;
-  line-height: 1.6;
+  font-weight: 300;
+  line-height: 1.75;
+  color: #7C7C94;
   margin-bottom: var(--spacing-16);
 }
 

@@ -2722,6 +2722,7 @@ img {
   .footer-bottom { flex-direction: column; align-items: flex-start; }
   .hero-dashboard-wrapper { display: none; }
   .hero { min-height: 100vh; }
+  .hero-subtext span { white-space: normal !important; }
   .footer-inner { padding: 40px 20px 32px; }
   .footer-top-row { flex-direction: column; align-items: flex-start !important; gap: 16px !important; }
   .footer-top-row > div:last-child { text-align: left !important; }

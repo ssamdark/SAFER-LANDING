@@ -395,7 +395,7 @@ function initOrbitRing3(ringId, visualSelector, initialLabels, initialVideos, te
 initOrbitRing3('orbitRing03b', '.feature03b-visual',
   [
     '안전보건 데이터<br>국가공인 보안',
-    '대한민국<br>안전보건관리 NO.1',
+    '대한민국<br>안전보건관리 No.1',
     '안전전문 경력 18년<br>되고시스템'
   ],
   [

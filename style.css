@@ -2841,6 +2841,7 @@ img {
   .bento-card--full { flex-direction: column !important; height: auto !important; }
   .bento-card--full > div:first-child { padding: 30px 24px 24px; }
   .feature-bar-grid { grid-template-columns: 1fr; }
+  .feature-heading--lg { font-size: 22px; }
   .pcard-visual--solution { min-height: auto; }
   .sol-grid {
     position: relative;

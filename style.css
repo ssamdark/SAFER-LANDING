@@ -2720,6 +2720,9 @@ img {
   .testimonial-card { min-width: 100%; }
   .footer-links-grid { grid-template-columns: 1fr 1fr; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .footer-top-row { flex-direction: column; align-items: flex-start !important; gap: 16px !important; }
+  .footer-top-row > div:last-child { text-align: left !important; }
+  .footer-inner > p { text-align: left !important; margin-top: 12px; }
   .patent-grid { grid-template-columns: repeat(2, 1fr); }
   .feature-visual { display: none !important; }
   .bento-full-img { display: none; }

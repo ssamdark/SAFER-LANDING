@@ -2465,6 +2465,56 @@ img {
 }
 
 /* ============================
+   SECTION VARIANTS
+   ============================ */
+.section-features {
+  background: #ffffff;
+  padding: 120px 0;
+}
+
+.section-cta {
+  background: #E7EEFF;
+  padding: 160px 0;
+}
+
+.section-blue-img {
+  background: #ffffff;
+  padding: 0;
+  line-height: 0;
+}
+
+/* ============================
+   PATENT CARDS
+   ============================ */
+.patent-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.patent-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.patent-card__img {
+  width: 100%;
+  max-width: 240px;
+  object-fit: contain;
+}
+
+.patent-card__label {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+/* ============================
    FOOTER
    ============================ */
 .footer {
@@ -2624,12 +2674,20 @@ img {
 /* ============================
    RESPONSIVE
    ============================ */
+@media (max-width: 1439px) {
+  .hero-character { display: none; }
+}
+
 @media (max-width: 1100px) {
   .container { padding: 0 var(--spacing-32); }
   .hero-headline { font-size: 50px; }
   .final-cta-heading { font-size: 42px; }
   .control-cards { grid-template-columns: 1fr 1fr; }
   .footer-links-grid { grid-template-columns: repeat(3, 1fr); }
+  .feature-row { grid-template-columns: 1fr; gap: 40px; }
+  .feature-visual { margin: 0 auto !important; }
+  .section-features { padding: 80px 0; }
+  .section-cta { padding: 100px 0; }
 }
 
 @media (max-width: 900px) {
@@ -2643,6 +2701,9 @@ img {
   .footer-top { grid-template-columns: 1fr; }
   .footer-links-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonial-card { min-width: calc((100% - 24px) / 2); }
+  .patent-grid { grid-template-columns: repeat(3, 1fr); }
+  .bento-cols { flex-direction: column; }
+  .feature-bar-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -2659,4 +2720,14 @@ img {
   .testimonial-card { min-width: 100%; }
   .footer-links-grid { grid-template-columns: 1fr 1fr; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .patent-grid { grid-template-columns: repeat(2, 1fr); }
+  .feature-visual { display: none !important; }
+  .bento-full-img { display: none; }
+  .bento-card--full { flex-direction: column !important; height: auto !important; }
+  .bento-card--full > div:first-child { padding: 30px 24px 24px; }
+  .feature-bar-grid { grid-template-columns: 1fr; }
+  .section-control { padding-top: 60px !important; padding-bottom: 60px !important; }
+  .section-problem { padding-top: 60px !important; padding-bottom: 60px !important; }
+  .section-features { padding: 60px 0; }
+  .section-cta { padding: 80px 0; }
 }

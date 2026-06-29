@@ -127,6 +127,8 @@ img {
   font-size: var(--text-caption);
 }
 
+.btn-muted { background-color: var(--gray-600); }
+
 .btn-outline-primary {
   background: var(--color-paper-white);
   color: var(--color-electric-blue);

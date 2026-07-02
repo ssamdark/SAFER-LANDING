@@ -83,10 +83,10 @@ requestAnimationFrame(function() {
   if (!elKr || !elEn || !cursor) return;
 
   var krTexts = [
-    '문서 자동 등록해주는 ',
-    '법규 자동 매핑해주는 ',
-    '위험성 자동 분석해주는 ',
-    '보고서 자동 생성해주는 ',
+    '문서를 자동으로 등록하는 ',
+    '법규를 자동으로 매핑하는 ',
+    '위험을 자동으로 분석하는 ',
+    '보고서를 자동 생성하는 ',
   ];
   var enText = 'DUEGO SAFER AI';
   var idx = 0;
